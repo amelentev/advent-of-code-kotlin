@@ -2,7 +2,7 @@ package y2024
 
 import readInput
 
-const val MOD = 16777216L
+private const val MOD = 16777216L
 
 fun main() {
     val input = readInput("Day22").map { it.toLong() }
