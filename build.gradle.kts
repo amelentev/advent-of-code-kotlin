@@ -6,6 +6,11 @@ repositories {
     mavenCentral()
 }
 
+dependencies {
+    implementation("io.ksmt:ksmt-core:0.6.4")
+    implementation("io.ksmt:ksmt-z3:0.6.4")
+}
+
 tasks {
     sourceSets {
         main {
